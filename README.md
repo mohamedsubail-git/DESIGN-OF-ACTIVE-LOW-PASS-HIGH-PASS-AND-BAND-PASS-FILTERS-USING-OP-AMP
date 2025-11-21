@@ -20,8 +20,11 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH.  At fH the gain 
  <img width="602" height="346" alt="image" src="https://github.com/user-attachments/assets/db9d11c7-e823-46f2-bb3e-635a71cbd0b2" />
 
 ## TABULATION: LOW PASS FILTER
+<img width="810" height="696" alt="image" src="https://github.com/user-attachments/assets/d3359de1-0033-438a-aacf-614aeb65bd95" />
+
                                                                                       		
 ## GRAPH: LOW PASS FILTER
+<img width="1097" height="800" alt="image" src="https://github.com/user-attachments/assets/7f87bfe8-22d2-443f-a829-06240bf0c09d" />
 
 ## HIGH PASS FILTER
 The frequency at which the magnitude of the gain is 0.707 times the maximum value of gain is called low cut off frequency.  Obviously, all frequencies higher than fL are pass band frequencies with the highest frequency determined by the closed –loop band width all of the op-amp.
@@ -34,8 +37,10 @@ HIGH PASS FILTER
 <img width="1007" height="488" alt="image" src="https://github.com/user-attachments/assets/ebcb29eb-14e0-4a94-99c6-8962f80db50c" />
 
 ## TABULATION: HIGH PASS FILTER
+<img width="699" height="671" alt="image" src="https://github.com/user-attachments/assets/12ea01a8-9ecb-4061-bddc-62a9e00eda6d" />
 
 ## GRAPH: HIGH PASS FILTER
+<img width="1099" height="759" alt="image" src="https://github.com/user-attachments/assets/1f55886e-a15b-4a1c-878c-7bebffb349a6" />
 
 ## DESIGN:LPF & HPF
 Given: fH = 1 KHz = 1/ (2πRC)
@@ -66,9 +71,11 @@ A band pass filter has a pass band between two cutoff frequencies fH and fL such
 <img width="1058" height="537" alt="image" src="https://github.com/user-attachments/assets/46f7ef48-e8af-437c-958f-680c32873aaa" />
 
  ## TABULATION: BANDPASS FILTER
+<img width="678" height="466" alt="image" src="https://github.com/user-attachments/assets/b1d5044c-52f9-4afe-bebd-1c68561be051" />
 
 ## GRAPH: BANDPASS FILTER
-                                                                                                  
+<img width="930" height="663" alt="image" src="https://github.com/user-attachments/assets/62212e77-7200-4802-b732-9d48edb8ee57" />
+                                                                                
 ## DESIGN: BAND PASS FILTER
 Design a BPF to pass a band of 400Hz to 2KHz with a pass band gain of 4. 
 1. Select the highest cut-off frequency of LPF as fH = 10 KHz and the lowest cut-off frequency of HPF as fL = 1 KHz. 
@@ -101,4 +108,4 @@ Given: fL = 400Hz  = 1/ (2πR2C2)
 6. Calculate passband gain and plot the graph of frequency versus voltage gain & check the graph to get approximately the same characteristic as shown in the model graph.
 
 ## RESULT:
-
+Thus, the frequency response of First order Low Pass Filter (LPF), First order High Pass Filter (HPF), Band pass filter are obtained
